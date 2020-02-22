@@ -33,7 +33,8 @@ sapply(df, class) # view the data type
 
 
 df %>%
-  select(Year<=2014)
+  select(Year>=2019)
+
 
 # 
 df %>% 
