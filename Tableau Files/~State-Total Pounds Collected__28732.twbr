@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (State - Total Pounds Collected)' inline='true' name='federated.0mazgwc08p4u7q1e79lg219gt07s' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='State - Total Pounds Collected' name='excel-direct.1iozuou1lcwl9t10dzbjq1201ap6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Aishwarya/Documents/GitHub/OceanCleanup/Excel Files -Not Dataset Inclusive/State - Total Pounds Collected.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1iozuou1lcwl9t10dzbjq1201ap6' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:G54:no:A1:G54:0' header='yes' outcome='6'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='2015' ordinal='1' />
+            <column datatype='integer' name='2016' ordinal='2' />
+            <column datatype='integer' name='2017' ordinal='3' />
+            <column datatype='integer' name='2018' ordinal='4' />
+            <column datatype='integer' name='2019' ordinal='5' />
+            <column datatype='integer' name='Grand Total' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grand Total]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Grand Total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G54:no:A1:G54:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Alabama, USA&quot;' value='&quot;Alabama&quot;' />
+          <semantic-value key='&quot;Alaska, USA&quot;' value='&quot;Alabama&quot;' />
+          <semantic-value key='&quot;Arizona, USA&quot;' value='&quot;Arizona&quot;' />
+          <semantic-value key='&quot;Arkansas, USA&quot;' value='&quot;Arkansas&quot;' />
+          <semantic-value key='&quot;California, USA&quot;' value='&quot;California&quot;' />
+          <semantic-value key='&quot;Colorado, USA&quot;' value='&quot;Colorado&quot;' />
+          <semantic-value key='&quot;Connecticut, USA&quot;' value='&quot;Connecticut&quot;' />
+          <semantic-value key='&quot;Delaware, USA&quot;' value='&quot;Delaware&quot;' />
+          <semantic-value key='&quot;District of Columbia, USA&quot;' value='&quot;District of Columbia&quot;' />
+          <semantic-value key='&quot;Florida, USA&quot;' value='&quot;Florida&quot;' />
+          <semantic-value key='&quot;Georgia, USA&quot;' value='&quot;Georgia&quot;' />
+          <semantic-value key='&quot;Hawaii, USA&quot;' value='&quot;Hawaii&quot;' />
+          <semantic-value key='&quot;Idaho, USA&quot;' value='&quot;Idaho&quot;' />
+          <semantic-value key='&quot;Illinois, USA&quot;' value='&quot;Illinois&quot;' />
+          <semantic-value key='&quot;Indiana, USA&quot;' value='&quot;Indiana&quot;' />
+          <semantic-value key='&quot;Iowa, USA&quot;' value='&quot;Iowa&quot;' />
+          <semantic-value key='&quot;Kansas, USA&quot;' value='&quot;Kansas&quot;' />
+          <semantic-value key='&quot;Kentucky, USA&quot;' value='&quot;Kentucky&quot;' />
+          <semantic-value key='&quot;Louisiana, USA&quot;' value='&quot;Louisiana&quot;' />
+          <semantic-value key='&quot;Maine, USA&quot;' value='&quot;Maine&quot;' />
+          <semantic-value key='&quot;Maryland, USA&quot;' value='&quot;Maryland&quot;' />
+          <semantic-value key='&quot;Massachusetts, USA&quot;' value='&quot;Massachusetts&quot;' />
+          <semantic-value key='&quot;Michigan, USA&quot;' value='&quot;Michigan&quot;' />
+          <semantic-value key='&quot;Minnesota, USA&quot;' value='&quot;Minnesota&quot;' />
+          <semantic-value key='&quot;Mississippi, USA&quot;' value='&quot;Mississippi&quot;' />
+          <semantic-value key='&quot;Missouri, USA&quot;' value='&quot;Missouri&quot;' />
+          <semantic-value key='&quot;Montana, USA&quot;' value='&quot;Montana&quot;' />
+          <semantic-value key='&quot;Nebraska, USA&quot;' value='&quot;Nebraska&quot;' />
+          <semantic-value key='&quot;Nevada, USA&quot;' value='&quot;Nevada&quot;' />
+          <semantic-value key='&quot;New Hampshire, USA&quot;' value='&quot;New Hampshire&quot;' />
+          <semantic-value key='&quot;New Jersey, USA&quot;' value='&quot;New Jersey&quot;' />
+          <semantic-value key='&quot;New Mexico, USA&quot;' value='&quot;New Mexico&quot;' />
+          <semantic-value key='&quot;New York, USA&quot;' value='&quot;New York&quot;' />
+          <semantic-value key='&quot;North Carolina, USA&quot;' value='&quot;North Carolina&quot;' />
+          <semantic-value key='&quot;North Dakota, USA&quot;' value='&quot;North Dakota&quot;' />
+          <semantic-value key='&quot;Ohio, USA&quot;' value='&quot;Ohio&quot;' />
+          <semantic-value key='&quot;Oklahoma, USA&quot;' value='&quot;Oklahoma&quot;' />
+          <semantic-value key='&quot;Oregon, USA&quot;' value='&quot;Oregon&quot;' />
+          <semantic-value key='&quot;Pennsylvania, USA&quot;' value='&quot;Pennsylvania&quot;' />
+          <semantic-value key='&quot;Rhode Island, USA&quot;' value='&quot;Rhode Island&quot;' />
+          <semantic-value key='&quot;South Carolina, USA&quot;' value='&quot;South Carolina&quot;' />
+          <semantic-value key='&quot;South Dakota, USA&quot;' value='&quot;South Dakota&quot;' />
+          <semantic-value key='&quot;Tennessee, USA&quot;' value='&quot;Tennessee&quot;' />
+          <semantic-value key='&quot;Texas, USA&quot;' value='&quot;Texas&quot;' />
+          <semantic-value key='&quot;Utah, USA&quot;' value='&quot;Utah&quot;' />
+          <semantic-value key='&quot;Vermont, USA&quot;' value='&quot;Vermont&quot;' />
+          <semantic-value key='&quot;Virginia, USA&quot;' value='&quot;Virginia&quot;' />
+          <semantic-value key='&quot;Washington, USA&quot;' value='&quot;Washington&quot;' />
+          <semantic-value key='&quot;West Virginia, USA&quot;' value='&quot;West Virginia&quot;' />
+          <semantic-value key='&quot;Wisconsin, USA&quot;' value='&quot;Wisconsin&quot;' />
+          <semantic-value key='&quot;Wyoming, USA&quot;' value='&quot;Wyoming&quot;' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;Los Angeles, USA&quot;' value='34.052199999999999' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;Los Angeles, USA&quot;' value='118.2437' />
+        </semantic-values>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.309924' measure-ordering='alphabetic' measure-percentage='0.690076' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='State-Total Pounds Collected'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>State-Wise Total Pounds Collected</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (State - Total Pounds Collected)' name='federated.0mazgwc08p4u7q1e79lg219gt07s' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0mazgwc08p4u7q1e79lg219gt07s'>
+            <column datatype='integer' name='[Grand Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Alabama, USA&quot;' value='&quot;Alabama&quot;' />
+                <semantic-value key='&quot;Alaska, USA&quot;' value='&quot;Alabama&quot;' />
+                <semantic-value key='&quot;Arizona, USA&quot;' value='&quot;Arizona&quot;' />
+                <semantic-value key='&quot;Arkansas, USA&quot;' value='&quot;Arkansas&quot;' />
+                <semantic-value key='&quot;California, USA&quot;' value='&quot;California&quot;' />
+                <semantic-value key='&quot;Colorado, USA&quot;' value='&quot;Colorado&quot;' />
+                <semantic-value key='&quot;Connecticut, USA&quot;' value='&quot;Connecticut&quot;' />
+                <semantic-value key='&quot;Delaware, USA&quot;' value='&quot;Delaware&quot;' />
+                <semantic-value key='&quot;District of Columbia, USA&quot;' value='&quot;District of Columbia&quot;' />
+                <semantic-value key='&quot;Florida, USA&quot;' value='&quot;Florida&quot;' />
+                <semantic-value key='&quot;Georgia, USA&quot;' value='&quot;Georgia&quot;' />
+                <semantic-value key='&quot;Hawaii, USA&quot;' value='&quot;Hawaii&quot;' />
+                <semantic-value key='&quot;Idaho, USA&quot;' value='&quot;Idaho&quot;' />
+                <semantic-value key='&quot;Illinois, USA&quot;' value='&quot;Illinois&quot;' />
+                <semantic-value key='&quot;Indiana, USA&quot;' value='&quot;Indiana&quot;' />
+                <semantic-value key='&quot;Iowa, USA&quot;' value='&quot;Iowa&quot;' />
+                <semantic-value key='&quot;Kansas, USA&quot;' value='&quot;Kansas&quot;' />
+                <semantic-value key='&quot;Kentucky, USA&quot;' value='&quot;Kentucky&quot;' />
+                <semantic-value key='&quot;Louisiana, USA&quot;' value='&quot;Louisiana&quot;' />
+                <semantic-value key='&quot;Maine, USA&quot;' value='&quot;Maine&quot;' />
+                <semantic-value key='&quot;Maryland, USA&quot;' value='&quot;Maryland&quot;' />
+                <semantic-value key='&quot;Massachusetts, USA&quot;' value='&quot;Massachusetts&quot;' />
+                <semantic-value key='&quot;Michigan, USA&quot;' value='&quot;Michigan&quot;' />
+                <semantic-value key='&quot;Minnesota, USA&quot;' value='&quot;Minnesota&quot;' />
+                <semantic-value key='&quot;Mississippi, USA&quot;' value='&quot;Mississippi&quot;' />
+                <semantic-value key='&quot;Missouri, USA&quot;' value='&quot;Missouri&quot;' />
+                <semantic-value key='&quot;Montana, USA&quot;' value='&quot;Montana&quot;' />
+                <semantic-value key='&quot;Nebraska, USA&quot;' value='&quot;Nebraska&quot;' />
+                <semantic-value key='&quot;Nevada, USA&quot;' value='&quot;Nevada&quot;' />
+                <semantic-value key='&quot;New Hampshire, USA&quot;' value='&quot;New Hampshire&quot;' />
+                <semantic-value key='&quot;New Jersey, USA&quot;' value='&quot;New Jersey&quot;' />
+                <semantic-value key='&quot;New Mexico, USA&quot;' value='&quot;New Mexico&quot;' />
+                <semantic-value key='&quot;New York, USA&quot;' value='&quot;New York&quot;' />
+                <semantic-value key='&quot;North Carolina, USA&quot;' value='&quot;North Carolina&quot;' />
+                <semantic-value key='&quot;North Dakota, USA&quot;' value='&quot;North Dakota&quot;' />
+                <semantic-value key='&quot;Ohio, USA&quot;' value='&quot;Ohio&quot;' />
+                <semantic-value key='&quot;Oklahoma, USA&quot;' value='&quot;Oklahoma&quot;' />
+                <semantic-value key='&quot;Oregon, USA&quot;' value='&quot;Oregon&quot;' />
+                <semantic-value key='&quot;Pennsylvania, USA&quot;' value='&quot;Pennsylvania&quot;' />
+                <semantic-value key='&quot;Rhode Island, USA&quot;' value='&quot;Rhode Island&quot;' />
+                <semantic-value key='&quot;South Carolina, USA&quot;' value='&quot;South Carolina&quot;' />
+                <semantic-value key='&quot;South Dakota, USA&quot;' value='&quot;South Dakota&quot;' />
+                <semantic-value key='&quot;Tennessee, USA&quot;' value='&quot;Tennessee&quot;' />
+                <semantic-value key='&quot;Texas, USA&quot;' value='&quot;Texas&quot;' />
+                <semantic-value key='&quot;Utah, USA&quot;' value='&quot;Utah&quot;' />
+                <semantic-value key='&quot;Vermont, USA&quot;' value='&quot;Vermont&quot;' />
+                <semantic-value key='&quot;Virginia, USA&quot;' value='&quot;Virginia&quot;' />
+                <semantic-value key='&quot;Washington, USA&quot;' value='&quot;Washington&quot;' />
+                <semantic-value key='&quot;West Virginia, USA&quot;' value='&quot;West Virginia&quot;' />
+                <semantic-value key='&quot;Wisconsin, USA&quot;' value='&quot;Wisconsin&quot;' />
+                <semantic-value key='&quot;Wyoming, USA&quot;' value='&quot;Wyoming&quot;' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Los Angeles, USA&quot;' value='34.052199999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Los Angeles, USA&quot;' value='118.2437' />
+              </semantic-values>
+            </column>
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Grand Total]' derivation='Sum' name='[sum:Grand Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.0mazgwc08p4u7q1e79lg219gt07s].[Latitude (generated)]</column>
+            <column>[federated.0mazgwc08p4u7q1e79lg219gt07s].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Longitude (generated)]' field-type='quantitative' max='25305940.823001429' min='21624184.93014707' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Latitude (generated)]' field-type='quantitative' max='3491140.0771592525' min='1315864.1595166328' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:Grand Total:qk]' palette='tableau-map-temperatur' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[none:State:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[none:State:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0mazgwc08p4u7q1e79lg219gt07s].[none:State:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:Grand Total:qk]' />
+              <text column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[none:State:nk]' />
+              <text column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:Grand Total:qk]' />
+              <lod column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[none:State:nk]' />
+              <geometry column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mazgwc08p4u7q1e79lg219gt07s].[Latitude (generated)]</rows>
+        <cols>[federated.0mazgwc08p4u7q1e79lg219gt07s].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{366C4632-48CF-4A4E-8884-65DA20B13FB0}' />
+    </worksheet>
+    <worksheet name='Year Wise -Total Pounds Collected'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (State - Total Pounds Collected)' name='federated.0mazgwc08p4u7q1e79lg219gt07s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mazgwc08p4u7q1e79lg219gt07s'>
+            <column datatype='integer' name='[2015]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2016]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2017]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2018]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2019]' role='measure' type='quantitative' />
+            <column-instance column='[2015]' derivation='Sum' name='[sum:2015:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2016]' derivation='Sum' name='[sum:2016:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2017]' derivation='Sum' name='[sum:2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2018]' derivation='Sum' name='[sum:2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2019]' derivation='Sum' name='[sum:2019:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:2015:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:2016:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:2018:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:2019:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0mazgwc08p4u7q1e79lg219gt07s].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0mazgwc08p4u7q1e79lg219gt07s].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mazgwc08p4u7q1e79lg219gt07s].[:Measure Names]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{38031EC2-7F01-4B65-9A2E-035A084C8EEA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='State-Total Pounds Collected'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0mazgwc08p4u7q1e79lg219gt07s].[sum:Grand Total:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{94EDC309-81D3-4923-8DAA-341870B2DA74}' />
+    </window>
+    <window class='worksheet' name='Year Wise -Total Pounds Collected'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8AD466BC-867D-4EDF-9800-CD5D14F04D2E}' />
+    </window>
+  </windows>
+</workbook>
